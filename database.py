@@ -322,6 +322,6 @@ def get_category_counts():
             GROUP BY category
             ORDER BY total DESC
             """
-        ).fetchall()
+        ).fetchall all data
 
     return [dict(row) for row in rows]
